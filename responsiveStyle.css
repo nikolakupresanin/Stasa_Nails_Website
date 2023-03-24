@@ -1,0 +1,300 @@
+/*MEDIA QUERRY RESPONISVE*/
+/*Media Screen 2250px */
+@media screen and (max-width: 2250px) {
+  /*First Content*/
+  .first-page .left-side {
+    margin-top: 250px;
+  }
+  .first-page .left-side h3 {
+    font-size: 9em;
+  }
+}
+/*End Media Screen 2250px*/
+/*Media Screen 1441px*/
+@media screen and (max-width: 1441px) {
+  .header-wrapper {
+    height: 100vh;
+  }
+  .header-wrapper h1, .header-wrapper h3 {
+    font-size: 2.5em;
+  }
+  .first-page .left-side {
+    margin-top: 200px;
+  }
+  .first-page .left-side h3 {
+    font-size: 8em;
+  }
+  .second-page .card .right-card p {
+    font-size: 24px;
+  }
+  .parallax-container {
+    height: 150px;
+  }
+  .hidden {
+    opacity: 0;
+    transform: translate(-500px);
+    transition: all 0.5s;
+  }
+  .show {
+    opacity: 1;
+    transform: translate(0);
+    transition: all 1s;
+  }
+  .third-page {
+    background-size: 100%;
+    height: 100vh;
+  }
+  .third-page h2 {
+    padding: 20px;
+  }
+  .third-page .gallery-box a img {
+    height: 80%;
+  }
+  .social-page .facebook-box img {
+    width: 400px;
+  }
+  .social-page .instagram-box img {
+    width: 400px;
+  }
+  .social-page .footer .footer-list {
+    padding-top: 200px;
+  }
+}
+/*End Media Screen 1441*/
+/*Media Screen 1025px*/
+@media screen and (max-width: 1025px) {
+  .header-wrapper {
+    height: 100vh;
+  }
+  .header-wrapper h1, .header-wrapper h3 {
+    font-size: 2.2em;
+    padding: 10px;
+  }
+  .first-page {
+    height: 100vh;
+  }
+  .first-page .left-side {
+    margin-top: 50px;
+  }
+  .first-page .left-side h3 {
+    font-size: 6em;
+  }
+  .first-page .first-imgBox {
+    margin-top: 50px;
+  }
+  .second-page .second-box {
+    height: 100vh;
+  }
+  .second-page .second-box .card {
+    width: 450px;
+    height: 350px;
+  }
+  .second-page .second-box .card h2 {
+    font-size: 2.7em;
+  }
+  .parallax-container {
+    height: 150px;
+  }
+  .hidden {
+    opacity: 0;
+    transform: translate(-400px);
+    transition: all 0.5s;
+  }
+  .hidden h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4em;
+    padding: 10px;
+    z-index: 1;
+  }
+  .show {
+    opacity: 1;
+    transform: translate(0);
+    transition: all 1s;
+  }
+  .third-page {
+    height: 100vh;
+  }
+  .third-page .gallery-box {
+    height: 100vh;
+  }
+  .social-page .facebook-box img {
+    width: 300px;
+  }
+  .social-page .instagram-box img {
+    width: 300px;
+  }
+  .social-page .footer .footer-list {
+    padding-top: 100px;
+  }
+  .social-page .footer .footer-list li {
+    font-size: 18px;
+  }
+  .social-page .footer .footer-list li a {
+    font-size: 20px;
+  }
+}
+/*End Media Screen 1025px*/
+/*Media Screen 769px*/
+@media screen and (max-width: 769px) {
+  .header-wrapper h1, .header-wrapper h3 {
+    font-size: 2em;
+    padding: 5px;
+  }
+  .first-page .left-side {
+    margin: 150px 10px 0 10px;
+  }
+  .first-page .left-side h3 {
+    font-size: 7em;
+    padding: 10px;
+  }
+  .first-page .first-imgBox {
+    margin-top: 30px;
+  }
+  .second-page .second-box .card {
+    width: 350px;
+  }
+  .second-page .second-box .card h2 {
+    font-size: 3em;
+  }
+  .hidden {
+    opacity: 0;
+    transform: translate(-200px);
+    transition: all 0.5s;
+  }
+  .hidden h2 {
+    margin: 0 10px 30px 10px;
+    font-size: 3.5em;
+  }
+  .show {
+    opacity: 1;
+    transform: translate(0);
+    transition: all 1s;
+  }
+  .third-page {
+    background-size: contain;
+  }
+  .third-page .gallery-box {
+    margin-top: 100px;
+  }
+  .third-page .gallery-box a img {
+    height: 85%;
+  }
+  .social-page h2 {
+    font-size: 2.5em;
+    padding: 50px 10px 10px 10px;
+  }
+  .social-page .facebook-box img {
+    width: 150px;
+  }
+  .social-page .instagram-box img {
+    width: 150px;
+  }
+  .social-page .footer .footer-list {
+    padding-top: 100px;
+    background-color: #000;
+  }
+  .social-page .footer .footer-list li a {
+    padding: 5px;
+  }
+}
+/*End Media Screen 769px*/
+/*Media Screen 465px*/
+@media screen and (max-width: 475px) {
+  .nav-wrapper {
+    animation-name: show;
+    animation-duration: 3.5s;
+  }
+  .nav-wrapper a img {
+    max-height: 45px;
+    padding-top: 10px;
+  }
+  .header-wrapper h1, .header-wrapper h3 {
+    font-size: 2.5em;
+    padding: 5px;
+  }
+  .header-wrapper h1 .name, .header-wrapper h3 .name {
+    color: #fff !important;
+  }
+  .first-page .left-side h3 {
+    font-size: 3.5em;
+  }
+  .second-page .second-box .card {
+    width: 300px;
+    height: 300px;
+  }
+  .second-page .second-box .card h2 {
+    font-size: 2.8em;
+  }
+  .second-page .second-box .right-card h2 {
+    font-size: 30px;
+  }
+  .second-page .second-box .right-card p {
+    font-size: 18px;
+  }
+  .third-page {
+    background: none;
+  }
+  .third-page .hidden .gallery-box {
+    margin: 0;
+    padding: 0;
+  }
+  .third-page .hidden .gallery-box h2 {
+    font-size: 2.5em;
+  }
+  .third-page .hidden .gallery-box a img {
+    height: 100%;
+    width: 100%;
+  }
+  .social-page h2 {
+    font-size: 2em;
+    padding: 50px 20px 0px 20px;
+  }
+  .social-page .facebook-box img {
+    width: 150px;
+  }
+  .social-page .instagram-box img {
+    width: 150px;
+  }
+  .social-page .footer .footer-list {
+    padding-top: 50px;
+  }
+  .social-page .footer .footer-list li {
+    font-size: 16px;
+  }
+  .social-page .footer .footer-list li a {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+/*End Media Screen 376px*/
+@media screen and (max-width: 376px) {
+  .header-wrapper h1, .header-wrapper h3 {
+    font-size: 2em;
+    padding: 0 10px 0px 10px;
+  }
+  .second-page .second-box .card {
+    width: 300px;
+    height: 250px;
+  }
+  .second-page .second-box .card h2 {
+    font-size: 2em;
+  }
+  .second-page .second-box .card p {
+    font-size: 1.2em;
+  }
+  .third-page h2 {
+    font-size: 2em;
+    padding: 0 10px 0 10px;
+  }
+  .social-page h2 {
+    font-size: 2em;
+  }
+  .social-page .facebook-box img {
+    width: 150px;
+  }
+  .social-page .instagram-box img {
+    width: 150px;
+  }
+}
+/*End Media Screen 376px*//*# sourceMappingURL=responsiveStyle.css.map */
